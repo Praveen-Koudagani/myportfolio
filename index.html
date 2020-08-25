@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href=""><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="navbar-heading">Developer</h1>
+        <a href="#section-1" class="nav-item">Home</a>
+        <a href="#section-2" class="nav-item">About</a>
+        <a href="#section-3" class="nav-item">Projects</a>
+        <a href="#section-4" class="nav-item">Contact</a>
+        <!--<a href="#" class="nav-item">Certifications</a>-->
+    </nav>
+    <div class="container">
+        <!--section1-->
+        <section class="section1" id='section-1'>
+            <h1 class="section-1-heading">
+                Software Developer
+            </h1>
+            <img src="/images/pavi1.jpg" alt="praveen koudagani" class="person-img"/>
+            <h3 class="person-name">Praveen Koudagani</h3>
+        </section>
+        <!--end of section-->
+        <section class="section2" id="section-2">
+            <h1 class="section-2-heading">About Me</h1>
+            <h3 class="section-2-subheading">Technical Skills</h3>
+            <div class="progress-bars-wrapper">
+                <div class="progress-bar">
+                    <p class="progress-text">
+                        C
+                        <span>50</span>%
+                    </p>
+                    <div class="progress-percent"></div>
+                </div>
+                <div class="progress-bar">
+                    <p class="progress-text">
+                        Python
+                        <span>70</span>%
+                    </p>
+                    <div class="progress-percent"></div>
+                </div>
+                <div class="progress-bar">
+                    <p class="progress-text">
+                        C++
+                        <span>65</span>%
+                    </p>
+                    <div class="progress-percent"></div>
+                </div>
+
+                <div class="progress-bar">
+                    <p class="progress-text">
+                        HTML
+                        <span>50</span>%
+                    </p>
+                    <div class="progress-percent"></div>
+                </div>
+                <div class="progress-bar">
+                    <p class="progress-text">
+                        MySql
+                        <span>40</span>%
+                    </p>
+                    <div class="progress-percent"></div>
+                </div>
+
+            </div>
+            <div class="Softskills">
+                <h3 class="section-2-subheading">Soft Skills</h3>
+                <div class="softskill">
+                    <h2 class="skill-heading">Problem Solving</h2>
+                </div>
+                <div class="softskill">
+                    <h2 class="skill-heading">Teamwork</h2>
+                </div>
+                <div class="softskill">
+                    <h2 class="skill-heading">Adaptability</h2>
+                </div>
+                <div class="softskill">
+                    <h2 class="skill-heading">Communication</h2>
+                </div>
+            </div>
+
+        </section>
+        <!--end of section-2-->
+        <section class="section3" id="section-3">
+            <h1 class="section-3-heading">My Projects</h1>
+            <div class="projects-wrapper">
+                <div class="project">
+                    <div class="project-text">
+                    <h2 class="project-name">Responsive Personal Website</h2>
+                    <h4 class="project-technologies">HTML/CSS/Java Script</h4></div>
+                    <img src="images/project1.jpg" class="project-img">
+                    <a href="#" class="project-link" target="blank">Go to Website</a>
+                </div>
+            </div>
+        </section>
+        <!--end of section3-->
+        <section class="section4" id="section-4">
+            <h1 class=" section-4-heading">Contact Me</h1>
+            <form class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email"/>
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Submit" class="contact-form-btn"/>
+            </form>
+        </section>
+        <!--end of section-4-->
+        <footer class="section-5" id="section-5">
+            <div class="social-media">
+                <a href="https://github.com/Praveen-Koudagani" class="social-media-link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+                <a href="https://www.youtube.com/" class="social-media-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/feed/" class="social-media-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/" class="social-media-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <p class="copyright">
+                CopyRight &copy; Praveen Tech
+                All Rights Reserved
+            </p>
+        </footer>
+    </div>
+    <script src=portfolio.js></script>
+</body>
+</html>
