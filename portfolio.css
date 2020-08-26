@@ -435,7 +435,7 @@ font-size: 5rem;
         width: 70%;
     }
 }
-@media(max-width:380px){
+@media(max-width:400px){
     .section-1-heading{
         text-align: center ;
         width: 70%;
