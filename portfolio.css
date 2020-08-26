@@ -455,7 +455,7 @@ font-size: 5rem;
 
     .projects-wrapper{
         width: 80%;
-   
+        display: inline-block;
     }
     .project-img{
         width: 70%;
