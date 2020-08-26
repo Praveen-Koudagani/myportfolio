@@ -441,9 +441,10 @@ font-size: 5rem;
         width: 70%;
     }
 }
-@media(max-width:1080){
+@media(max-width:1080px){
+
     .projects-wrapper{
-        width: 80%;
+        width: 50%;
    
     }
     .project-img{
