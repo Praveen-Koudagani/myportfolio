@@ -451,3 +451,13 @@ font-size: 5rem;
         width: 70%;
     }
 }
+@media(max-width:2340px){
+
+    .projects-wrapper{
+        width: 50%;
+   
+    }
+    .project-img{
+        width: 70%;
+    }
+}
